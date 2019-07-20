@@ -14,10 +14,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button1= (Button) findViewById(R.id.logInBut);
+        Button button2=(Button) findViewById(R.id.SignUp);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,LogInActivity.class);
+                startActivity(intent);
+
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,SignUp.class);
                 startActivity(intent);
 
             }
