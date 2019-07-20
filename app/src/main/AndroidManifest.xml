@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NewListFragment"></activity>
+        <activity android:name=".WhatLookFor"></activity>
+        <activity android:name=".NewListFragment" />
         <activity android:name=".DiscoverMarkets" />
         <activity android:name=".SignUp" />
         <activity android:name=".LogInActivity" />
