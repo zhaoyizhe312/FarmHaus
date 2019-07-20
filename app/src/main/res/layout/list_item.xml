@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<View-->
+            <!--android:id="@+id/cut1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="2px"-->
+            <!--android:background="#E8E8E8"/>-->
+    <TextView
+            android:id="@+id/far_mar"
+            android:textColor="#15e6b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13.3dp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.01"
+            android:layout_marginLeft="16.3dp"
+            android:text="FARMERS MARKET"
+            android:textSize="6.7sp"
+    />
+
+    <TextView
+            android:id="@+id/txt_item_title"
+            android:layout_below="@id/far_mar"
+            android:layout_marginLeft="16.3dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="169.3dp"
+            android:layout_height="18.7dp"
+            android:gravity="center_vertical"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.01"
+            android:textColor="#454545"
+            android:textSize="16.7sp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <HorizontalScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal" >
+
+        <ImageView android:layout_width="76.7dp"
+                   android:layout_height="76.7dp"
+                   android:src="@drawable/first"
+                   android:layout_marginTop="20.7dp"
+                   android:layout_marginLeft="16.3dp"
+        />
+        <ImageView android:layout_width="76.7dp"
+                   android:layout_height="76.7dp"
+                   android:src="@drawable/second"
+                   android:layout_marginTop="20.7dp"
+                   android:layout_marginLeft="3.4dp"
+        />
+        <ImageView android:layout_width="76.7dp"
+                   android:layout_height="76.7dp"
+                   android:src="@drawable/third"
+                   android:layout_marginTop="20.7dp"
+                   android:layout_marginLeft="3.4dp"
+        />
+                <ImageView android:layout_width="76.7dp"
+                           android:layout_height="76.7dp"
+                           android:src="@drawable/fourth"
+                           android:layout_marginTop="20.7dp"
+                           android:layout_marginLeft="3.4dp"
+                />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+                android:layout_marginTop="106dp"
+                android:layout_marginLeft="16.3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.01"
+                android:text="Address"
+                android:textColor="#454545"
+                android:textSize="7.3sp"
+        />
+
+        <TextView
+                android:layout_marginTop="106dp"
+                android:layout_marginLeft="49.2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.01"
+                android:text="No. of miles away"
+                android:textColor="#15e6b6"
+                android:textSize="6.7sp"
+        />
+        <TextView
+                android:id="@+id/time"
+                android:layout_marginTop="117.3dp"
+                android:layout_marginLeft="16.3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.01"
+                android:text="START TIME - END TIME"
+                android:textColor="#bcbcbc"
+                android:textSize="6.7sp"
+        />
+        <Button
+                android:id="@+id/direc"
+                android:layout_marginLeft="16.3dp"
+                android:background="@drawable/shape_gradient"
+                android:layout_width="95.8dp"
+                android:layout_height="23.3dp"
+                android:layout_marginTop="133dp"
+                android:textSize="8.7sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="41.3sp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:text="Directions"/>
+        <Button
+                android:id="@+id/conta"
+                android:background="#E8E8E8"
+                android:layout_width="95.8dp"
+                android:layout_marginTop="133dp"
+                android:layout_height="23.3dp"
+                android:layout_marginLeft="112.1dp"
+                android:textSize="8.7sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="#13c39a"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="41.3sp"
+                android:layout_marginBottom="3dp"
+                android:gravity="center"
+                android:text="Contact"/>
+        <View
+                android:id="@+id/cut2"
+                android:layout_width="wrap_content"
+                android:layout_height="2px"
+                android:background="#E8E8E8"
+                android:layout_marginTop="14.5dp"
+                android:layout_below="@id/direc"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
